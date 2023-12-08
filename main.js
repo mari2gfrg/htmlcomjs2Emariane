@@ -6,12 +6,12 @@ function tocaSom (selectorAudio)  {
     elemento.play();
   }
 
-  else
+  else{
      console.log('Elemento não encontrado ou seletor inválido');
 
- }
+  }
 
-
+}
 
 const listadeTeclas =document.querySelectorAll('.tecla');
 
@@ -40,10 +40,5 @@ tecla.onkeyuo = function()  {
     tecla.classList.remove('ativa'); 
 
 }
-
-
-
-
-
 
 
